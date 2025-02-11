@@ -39,7 +39,7 @@ header h1 {
 }
 
 .camera {
-    background: url('/_site/images/camera.png') no-repeat center;
+    background: url('/images/camera.png') no-repeat center;
     background-size: contain;
     width: 760px;
     height: 500px;
@@ -95,19 +95,19 @@ header h1 {
 }
 
 .wifi::before { 
-    background-image: url('/_site/images/wifi-solid.svg'); 
+    background-image: url('/images/wifi-solid.svg'); 
 }
 
 .cloud::before { 
-    background-image: url('/_site/images/cloud.svg'); 
+    background-image: url('/images/cloud.svg'); 
 }
 
 .qr::before { 
-    background-image: url('/_site/images/qr.svg'); 
+    background-image: url('/images/qr.svg'); 
 }
 
 .share::before { 
-    background-image: url('/_site/images/share.svg'); 
+    background-image: url('/images/share.svg'); 
 }
 
 
