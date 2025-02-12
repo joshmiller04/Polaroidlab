@@ -25,7 +25,7 @@ header h1 {
    font-size: 1.3em;
 }
 
-
+/* HERO SECTION */
 .hero {
     text-align: center;
     position: relative;
@@ -47,6 +47,7 @@ header h1 {
     margin: -120px auto;
 }
 
+/* DETAILS SECTION */
 .details {
     text-align: center;
     max-width: 700px;
@@ -85,6 +86,7 @@ header h1 {
     align-items: center;
 }
 
+/* ICON STYLING */
 .details ul li::before {
     content: "";
     width: 24px;
@@ -111,7 +113,7 @@ header h1 {
     background-image: url('/images/share.svg'); 
 }
 
-
+/* CTA SECTION */
 .cta2 {
     text-align: center;
     margin-top: 50px;
@@ -129,6 +131,7 @@ header h1 {
    margin: 0 auto;
 }
 
+/* FORM */
 .container {
    display: flex;
    justify-content: center;
@@ -165,4 +168,82 @@ header h1 {
 
 .button:hover {
    background: #e0302d;
+}
+
+/* MEDIA QUERIES */
+
+/* Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 3em;
+    }
+
+    .camera {
+        width: 100%;
+        height: auto;
+        margin: -80px auto;
+    }
+
+    .details h3 {
+        font-size: 1.8em;
+    }
+
+    .details p {
+        font-size: 1em;
+        padding: 0 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 15px;
+        gap: 8px;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .button {
+        width: 80%;
+    }
+}
+
+/* Mobile devices (max-width: 480px) */
+@media (max-width: 480px) {
+    .hero h2 {
+        font-size: 2em;
+    }
+
+    .camera {
+        width: 90%;
+        height: auto;
+        margin: -60px auto;
+    }
+
+    .details h3 {
+        font-size: 1.5em;
+    }
+
+    .details ul li {
+        font-size: 1em;
+        padding: 8px 0 8px 40px;
+        background-size: 20px;
+    }
+
+    .cta2 h3 {
+        font-size: 1.5em;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    .input {
+        width: 90%;
+    }
+
+    .button {
+        width: 90%;
+        padding: 8px;
+    }
 }
